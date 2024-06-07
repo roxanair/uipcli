@@ -22,3 +22,4 @@ steps:
     orchestratorConnection: 'ADO_testing'
     testSet: 'uipclitests'
     folderName: 'AuOpsFolder'
+    traceLevel: 'Information'
