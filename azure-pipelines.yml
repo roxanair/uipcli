@@ -18,8 +18,8 @@ steps:
   displayName: 'Run a multi-line script'
 - task: UiPathTest@4
   inputs:
-    testTarget: 'TestSet'
+    testTarget: 'TestProject'
     orchestratorConnection: 'ADO_testing'
-    testSet: 'uipclitests'
+    testProjectPath: 'project.json'
     folderName: 'AuOpsFolder'
     traceLevel: 'Information'
